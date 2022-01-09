@@ -1,1 +1,58 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  background: rgb(202, 131, 131);
+}
+.mt-5 {
+  margin: 20px;
+}
+
+.card {
+  display: inline-block;
+  height: 300px;
+  width: 200px;
+  border-radius: 25px;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.top-suit {
+  position: absolute;
+  font-size: 50px;
+  top: 5px;
+  left: 10px;
+}
+
+.bottom-suit {
+  position: absolute;
+  font-size: 50px;
+  bottom: 10px;
+  right: 10px;
+}
+
+.number {
+  font-size: 80px;
+
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+
+  margin-top: -80px;
+  margin-left: -100px;
+
+  /*position: absolute;
+  font-size: 80px;
+  left: 79px;
+  top: 35%;
+  line-height: 60px;*/
+}
+
+.colorRed {
+  color: red;
+}
+.btn-primary {
+  text-align: center;
+  margin: auto;
+  display: flex;
+}
